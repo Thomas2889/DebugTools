@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Executable>D:\.Files\..Personal Projects\C++\.libs\DebugTools\out\build\Windows x64-Debug\Tests\DebugToolsTests.exe</Executable>
-  <TestDurations>
-    <TestDuration Test="HeapMonitor.DoAllocations" Duration="5" />
-  </TestDurations>
-</GtaTestDurations>
