@@ -66,9 +66,9 @@ void *operator new[](std::size_t count, const char *file, int line) {
 
 void *do_new(void *ptr, std::size_t count, const char *file, int line) {
 	alloc_info *info = (alloc_info *)ptr; // ptr to alloc_info
-	ptr = (char *)ptr + sizeof(alloc_info) + 4; // move ptr forward for actual info
+	ptr = (char *)ptr + sizeof(alloc_info) + sizeof(padding); // move ptr forward for actual info
 
-	char *begin_pad = (char *)ptr - 4;
+	char *begin_pad = (char *)ptr - sizeof(padding);
 	char *end_pad = (char *)ptr + count;
 	memcpy(begin_pad, padding, sizeof(padding));
 	memcpy(end_pad, padding, sizeof(padding));
@@ -101,7 +101,7 @@ void operator delete[](void *p, const char *file, int line) {
 }
 
 void *do_delete(void *p, const char *file, int line) {
-	p = (char *)p - sizeof(alloc_info) - 4; // move ptr backward for alloc_info
+	p = (char *)p - sizeof(alloc_info) - sizeof(padding); // move ptr backward for alloc_info
 	alloc_info *info = (alloc_info *)p;
 
 	if (allocated_addresses.find((unsigned long)info) == allocated_addresses.end()) {
