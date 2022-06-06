@@ -1,0 +1,21 @@
+# ninja log v5
+1	914	6762236351751360	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	a015720aa279f0bc
+6	1014	6762236352031344	DebugTools/CMakeFiles/DebugTools.dir/DebugTools/HeapMonitor/HeapMonitor.cpp.obj	5878ca67aa8c46a1
+8	1062	6762236353186369	Tests/CMakeFiles/DebugToolsTests.dir/Tests/HeapMonitor/HeapMonitorTest.cpp.obj	d9f25cba7b3463cc
+1	1128	6762237295373055	build.ninja	1ce16b086883ef0c
+4	1953	6762236362256339	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	72cb31fd4e0ef009
+1954	2137	6762236362751339	lib/gtestd.lib	f97458516c634
+2137	2196	6762236364446510	lib/gtest_maind.lib	742c90e0fd2bce9c
+1017	1170	6762236353751356	DebugTools/DebugTools.lib	6f5b8caa2aa252e9
+2196	2647	6762236367457127	Tests/DebugToolsTests.exe	51b604577d58a060
+1	930	6762237363534554	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	f03a25f107564dac
+7	942	6762237363809574	DebugTools/CMakeFiles/DebugTools.dir/DebugTools/HeapMonitor/HeapMonitor.cpp.obj	b8871ea757022b3d
+942	1145	6762237364519563	DebugTools/DebugTools.lib	6f5b8caa2aa252e9
+9	1164	6762237365999553	Tests/CMakeFiles/DebugToolsTests.dir/Tests/HeapMonitor/HeapMonitorTest.cpp.obj	b12b4016caabba0e
+4	1876	6762237373144540	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	650712684b8e22e6
+1876	2074	6762237373624544	lib/gtestd.lib	f97458516c634
+2074	2134	6762237375501878	lib/gtest_maind.lib	742c90e0fd2bce9c
+2134	2624	6762237378961362	Tests/DebugToolsTests.exe	51b604577d58a060
+1	466	6762240781628619	DebugTools/CMakeFiles/DebugTools.dir/DebugTools/HeapMonitor/HeapMonitor.cpp.obj	b8871ea757022b3d
+466	572	6762240781938600	DebugTools/DebugTools.lib	6f5b8caa2aa252e9
+572	1636	6762240791582767	Tests/DebugToolsTests.exe	51b604577d58a060
